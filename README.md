@@ -79,11 +79,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-<<<<<<< HEAD
-cybersecurityprojects/ansible/Images/docker_ps_output.png)
-=======
 cybersecurityprojects/Images/docker_ps_output.png)
->>>>>>> 3a7cc0f (First commit)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -113,8 +109,4 @@ _TODO: Answer the following questions to fill in the blanks:_
 How do I specify which machine to install the ELK server on versus which to install Filebeat on? It is installed on the docker.
 - _Which URL do you navigate to in order to check that the ELK server is running? 52.229.111.123:5601
 
-<<<<<<< HEAD
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._Anwser: ansible-playbook
-=======
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._Anwser: ansible-playbook
->>>>>>> 3a7cc0f (First commit)
