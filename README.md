@@ -27,13 +27,9 @@ A Load balancer is an intelligent network security device that distributes the i
 
 The advantage of a jump box is it prevents all VM's from being exposed to the public, this enables a single point to manage user accounts and audit the traffic.  
 
-<<<<<<< HEAD
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
-=======
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
->>>>>>> 3a7cc0f (First commit)
 - Filebeat monitors the log data or specific configured locations.  
-- Metricbeat records metrics from the system and services running on the server. 
+- Metricbeat records metrics from the system and services running on the server.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
