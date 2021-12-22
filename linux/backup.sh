@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 
 # Create /var/backup if it doesn't exist
 mkdir -p /var/backup
@@ -13,7 +13,7 @@ mv /var/backup/home.tar /var/backup/home.10162021.tar
 tar cvf /var/backup/system.tar /home 	
 
 # List all files in '/var/backup', including file sizes, and save the output to '/var/backup/file_report.txt'.
-ls -lh /var/backup > /var/backup/file_report.txt
+ls -l cvf /var/backup > /var/backup/file_report.txt
 
 # Print how much free memory your machine has left. Save this to a file called '/var/backup/disk_report.txt'.
-free -h > /var/backup/disk_report.txt
+free -h > /var/backup/disk_report.txt  
