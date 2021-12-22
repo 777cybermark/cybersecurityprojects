@@ -107,6 +107,6 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it? Playbook is where the Ansible code is written .yml (YAML stands for Yet Another Markup Language) Copy the playbook.yml file to the docker. 
 - _Which file do you update to make Ansible run the playbook on a specific machine? Hostname
 How do I specify which machine to install the ELK server on versus which to install Filebeat on? It is installed on the docker.
-- _Which URL do you navigate to in order to check that the ELK server is running? 52.229.111.123:5601
+- _Which URL do you navigate to in order to check that the ELK server is running? 52.229.111.123:5601 or ssh into the ElK server ssh azadmin@10.1.0.4 and curl localhost/setup.php
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._Anwser: ansible-playbook
